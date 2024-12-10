@@ -96,9 +96,12 @@ int main()
 		cout << buff1[i];
 	}
 
-	/*cout << "\n\nВывод массива с помощью метода: ";
+	cout << "\nВывод с помощью цикла с методами: ";
 
-	cout << buff1;*/
+	for (auto buf = buff1.begin(); buf != buff1.end(); buf++)
+	{
+		cout << *buf;
+	}
 
 	buff1.clear();
 
